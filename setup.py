@@ -5,8 +5,8 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME  = "Kideney-disease-classification-Deep-Learning-Project"
-AUTHOR_USER_NAME = "1000kavya"
+REPO_NAME  = "kidney_disease_classification"
+AUTHOR_USER_NAME = "kavya8755"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "1000kavya@gmail.com"
 
@@ -20,7 +20,7 @@ setuptools.setup(
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME/{REPO_NAME}}/issues",
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"":"src"},
     package = setuptools.find_packages(where="src")

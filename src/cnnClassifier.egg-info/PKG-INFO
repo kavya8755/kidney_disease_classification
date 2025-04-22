@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/kavya8755/kidney_disease_classification
+Author: kavya8755
+Project-URL: Bug Tracker, https://github.com/kavya8755/kidney_disease_classification/issues
+Dynamic: author
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# Kidney-Disease-Classifier-MLflow-DVC
+## Workflows
+Update config.yaml
+Update secrets.yaml [Optional]
+Update params.yaml
+Update the entity
+Update the configuration manager in src config
+Update the components
+Update the pipeline
+Update the main.py
+Update the dvc.yaml
+app.py
+
+
+# How to run?
+###Step 1: - Create a conda environment
+
+```bash
+conda create -n cnncls python=3.8 -y
+```
